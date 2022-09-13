@@ -12,7 +12,7 @@ public class Books implements Comparable<Books> {
     private String user;
     private String book;
     private String description;
-    private int sort;
+    private Integer sort;
 
     @Override
     public int compareTo(Books o) {
